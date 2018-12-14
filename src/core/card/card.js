@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class Card extends Component {
     render () {
@@ -12,3 +13,6 @@ export default class Card extends Component {
         )
     }
 }
+Card.propTypes = {
+    title: PropTypes.string,
+};
