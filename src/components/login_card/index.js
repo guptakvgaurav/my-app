@@ -34,7 +34,7 @@ export default class LoginCard extends Component {
 
     render() {
         return (
-            <Card title="Login">
+            <Card title="Login" >
                 <CardContent>
                     <label></label>
                     <input type="email" value={ this.state.username } onChange={ this.onEmailChange }/>
