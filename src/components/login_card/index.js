@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardContent } from '../../core/card/index';
+import InputBox from '../../core/InputBox/index';
 
 export default class LoginCard extends Component {
 
@@ -36,14 +37,13 @@ export default class LoginCard extends Component {
         return (
             <Card title="Login" >
                 <CardContent>
-                    <label></label>
-                    <input type="email" value={ this.state.username } onChange={ this.onEmailChange }/>
-                    <input type="password" value={ this.state.password } onChange={ this.onPasswordChange }/>
+                    <InputBox type="email" value={ this.state.username } onChange={ this.onEmailChange }/>
+                    <InputBox type="password" value={ this.state.password } onChange={ this.onPasswordChange }/>
                     <button type="submit" onClick={ this.props.onSubmit}>
                         Login
                     </button> 
                 </CardContent>        
             </Card>
-            )
+        )
     }
 }
