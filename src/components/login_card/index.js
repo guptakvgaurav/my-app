@@ -37,8 +37,8 @@ export default class LoginCard extends Component {
         return (
             <Card title="Login" >
                 <CardContent>
-                    <InputBox type="email" value={ this.state.username ? this.state.username : '' } onChange={ this.onEmailChange }/>
-                    <InputBox type="password" value={ this.state.password ? this.state.password : ''} onChange={ this.onPasswordChange }/>
+                    <InputBox type="email" placeHolder="E-mail Address" value={ this.state.username ? this.state.username : '' } onChange={ this.onEmailChange }/>
+                    <InputBox type="password" placeHolder="Password" value={ this.state.password ? this.state.password : ''} onChange={ this.onPasswordChange }/>
                     <button type="submit" onClick={ this.props.onSubmit}>
                         Login
                     </button> 

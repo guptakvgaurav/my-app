@@ -90,3 +90,10 @@ input[type="submit"]:hover,
 button:hover{
   background: #e26e0c;
 }
+.input-box-wrap {
+  text-align: left;
+}
+.input-box-wrap label{
+  margin: 0 0 10px;
+  display: block;
+}

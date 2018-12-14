@@ -6,7 +6,7 @@ export default class InputBox extends Component {
         return (
             <div className="input-box-wrap">
                 <label>{this.props.label}</label>
-                <input type={this.props.type ? this.props.type : 'text'} value={ this.props.value } onChange={ this.props.onChange }/>
+                <input placeHolder={this.props.placeHolder} type={this.props.type ? this.props.type : 'text'} value={ this.props.value } onChange={ this.props.onChange }/>
             </div>
         )
     }
