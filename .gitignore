@@ -6,6 +6,7 @@
 .pnp.js
 .history
 package-lock.json
+/docs
 
 # testing
 /coverage

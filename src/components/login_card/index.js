@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Card, CardContent } from '../../core/card/index';
 import InputBox from '../../core/InputBox/index';
 
+/**
+ * Represents the login card which contains username and password.
+ */
 export default class LoginCard extends Component {
 
     constructor(props) {
